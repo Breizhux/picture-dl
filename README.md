@@ -10,3 +10,5 @@ I tried to leave the source code as simple as possible, but it's been a while si
 There is still a lot of work to do, so if you want to contribute you are welcome ;)
 
 I started python 1 or 2 years ago, and this is my first (serious) program. So don't hesitate to make corrections/modifications too!
+
+It's also the first time I've used github.... So if you have any advice, I'll take it!
