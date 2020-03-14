@@ -37,11 +37,13 @@ class Downloader :
             'Connection': 'keep-alive'}
 
     def download(self) :
+        print("Please use the gallery-dl project :\nhttps://github.com/mikf/gallery-dl")
         self.import_extractor(self.url_detection(self.url), self.url)
         self.informations = self.extract_info(self.url)
         if type(self.informations) != list :
             self.print_.static([None, "ERROR", self.informations])
             return False
+        print("Please use the gallery-dl project :\nhttps://github.com/mikf/gallery-dl")
         if not self.only_extract_informations :
             self.save_pictures(self.directory, self.informations, self.quality)
             return "download successfuly"
